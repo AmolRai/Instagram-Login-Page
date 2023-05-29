@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(38, 38, 38);
+    background: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+
+.imageBox {
+    margin-right: 32px;
+}
+
+.left {
+    width: 430px;
+    height: 581.15px;
+    background-repeat: no-repeat;
+    background-image: url("https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk");
+}
+
+.left img {
+    position: relative;
+    top: 28px;
+    left: 155px;
+}
+
+.mainBox {
+    display: flex;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loginBox {
+    display: flex;
+    max-width: 350px;
+    border-radius: 1px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(38, 38, 38);
+}
+
+.topBox {
+    display: flex;
+    height: 390px;
+    padding: 10px 0;
+    margin: 0 0 10px;
+    border-radius: 1px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
+}
+
+.middleBox {
+    width: 100%;
+    height: 63px;
+    display: flex;
+    padding: 10px 0;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.middleBox p {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(38, 38, 38);
+    margin: 15px 4px 15px 15px;
+}
+
+.middleBox span {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(0, 149, 246);
+}
+
+.bottomBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottomBox span {
+    font-weight: 400;
+    font-size: 14px;
+    color: rbg(38, 38, 38);
+    margin: 10px 20px 10px 20px;
+}
+
+.bottomBox img {
+    border: 0;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.bottomBox div {
+    margin: 10px 0 10px 0;
+}
+
+.credentials input {
+    width: 260px;
+    height: 38px;
+    outline: none;
+    font-size: 16px;
+    margin: 0 40px 6px;
+    border-radius: 3px;
+    font-weight: normal;
+    padding: 9px 0 7px 8px;
+    border-right-width: 0px;
+    color: rgb(38, 38, 38);
+    border: 1px solid #efefef;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(250, 250, 250);
+    border-top: 1px solid rgb(219, 219, 219);
+    border-left: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.credentialsBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    position: absolute;
+    pointer-events: none;
+    color: rgb(142, 142, 142);
+}
+
+.emailBox {
+    top: 12px;
+}
+
+.passwordBox {
+    top: 55px;
+}
+
+.credentials {
+    position: relative;
+    margin-top: 28px;
+}
+
+.credentials label {
+    left: 50px;
+    font-size: 12px;
+}
+
+.topBox img {
+    height: 53px;
+    width: 190px;
+    margin-top: 36px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.loginButton {
+    border: none;
+    height: 32px;
+    width: 268px;
+    opacity: .7;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 16px;
+    line-height: 14px;
+    margin-left: 40px;
+    line-height: 18px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    margin-right: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 149, 246);
+}
+
+.horizontalLine {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px 40px 18px;
+    justify-content: center;
+}
+
+.horizontalLine .horBox {
+    width: 100px;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+}
+
+.horizontalLine .or {
+    font-weight: 600;
+    margin-left: 18px;
+    margin-right: 18px;
+    line-height: 1.1538;
+    font-size: .8125rem;
+    color: rgb(142, 142, 142);
+}
+
+.loginFacebook {
+    border: none;
+    margin: 8px 4px;
+    font-size: 14px;
+    cursor: pointer;
+    background: none;
+    font-weight: 600;
+}
+
+.loginFacebook i {
+    font-size: 16px;
+    font-weight: 500;
+    color: #385185;
+    font-style: normal;
+}
+
+.facebook-icon {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.loginFacebook span {
+    font-size: 14px;
+    color: #385185;
+    font-weight: 600;
+}
+
+.forgottenPasswordButton {
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    background: none;
+    margin-top: 12px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    color: rgb(0, 55, 107);
+}
+
+footer {
+    display: flex;
+    margin-top: 65px;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer div {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(142, 142, 142);
+}
+
+.footerTopBox {
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerBottomBox {
+    gap: 10px;
+    display: flex;
+    margin-top: 12px;
+    flex-direction: row;
+}
+
+select {
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: #fff;
+    color: rgb(142, 142, 142);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.footerBottomBox div {
+    padding: 10px;
+}
+
+/* Media Query */
+@media (max-width: 880px) {
+    .imageBox {
+        display: none;
+    }
+
+    .mainBox {
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        margin-top: 80px;
+    }
+
+    footer {
+        margin-top: 60px;
+    }
+
+    .footerTopBox {
+        justify-content: center;
+    }
+}
